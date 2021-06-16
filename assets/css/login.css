@@ -1,0 +1,212 @@
+.login{
+    min-height: 350px;
+    width: 100%;
+    position: relative;
+}
+.form-box{
+    width: 600px;
+    max-height: 150%;   
+    background-color: white;
+    margin: auto;
+    position: relative;
+    border: 1px solid #ccc;
+    height: 350px;
+}
+.button-box{
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 6px 0 #0000001f;
+}
+.toggle-btn{
+    left: 1px;
+    width: 49.5%;
+    padding: 5px 1px;
+    cursor: pointer;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+button:focus { outline: none; }
+
+.toggle-btn{
+    font-size: 18px;
+    color: #252A2B;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 2px solid #ffffff;
+}
+#btn{
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    position: absolute;
+    width: 50.4%;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-bottom: 2px solid #10a2f7;
+    transition: .5s ;
+}
+.toggle-btn:hover{
+    top: 0;
+    left: 1px;
+    /* position: absolute; */
+    width: 49.5%;
+    height: auto;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-bottom: 2px solid #10a2f7;
+}
+.button-box:hover{
+
+}
+#btn_hover:hover{
+    top: 0;
+    left: 0px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-bottom: 2px solid #10a2f7;
+    transition: .5s ;
+}
+.input-field{
+    width: 100%;
+    /* border-bottom: 1px solid #10a2f7 !important; */
+    border: 0 ;
+    box-shadow: 0 1px 0 0 #0000001f;
+    margin-bottom: 15px;
+    height: 40px;
+    outline:none;
+}
+.submit-btn{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0;
+    border-radius:3px;
+    height: 38px;
+    padding: 0 15px;
+    font-size: 18px;
+}
+.input-group{
+    padding: 20px;
+    display: block;
+    width: 598px;
+}
+.login_other_fb_gg{
+    
+}
+.login-fb{
+    margin-left: 13px;
+    background-color: #3b5998;
+    display: inline-block;
+    /* position: relative; */
+    cursor: pointer;
+    width: 250px;
+    height: 43px;
+    position: relative;
+    font-size: 17px;
+    /* margin: 0; */
+}
+.login-gg{
+    margin-left: 25px;
+    background-color: #000000;
+    display: inline-block;
+    width: 250px;
+    height: 43px;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    font-size: 17px;
+}
+.forgot-password{
+    text-align: center ;
+    cursor: pointer;
+    color: #10a2f7;
+    font-size:17px;
+}
+.forgot-password a:hover{
+    color: red;
+    text-decoration: none;
+}
+#login-icon-fb{
+    font-size:25px;
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    left: 19px;
+    top: 38%;
+    transform: translateY(-50%)
+}
+#login-icon-gg{
+    font-size:25px;
+    position: absolute;
+    left: 13px;
+    top:50%;
+    transform: translateY(-50%)
+}
+.fa-facebook-f {
+    width: 30px;
+    height: 45px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.fa-facebook-f:hover {
+    color: #2278bf;
+}
+.login-other{
+    text-align: center;
+    font-size:17px;
+}
+.login-fb-content:hover{
+    color: white;
+    text-decoration: none;
+}
+.login-fb-content::after{
+    content:"";
+    border-left: 1px solid #15416f;
+    right:180px;
+    height: 43px;
+    position: absolute;    
+    top: 32%;
+    transform: translateY(-50%);
+    
+
+}
+.login-fb-content{
+    position: absolute;
+    left: 65px;
+    height: 43px;
+    color: #ffffff;
+    top: 68%;
+    transform: translateY(-50%);
+    
+}
+.login-gg-content:hover{
+    color: white;
+    text-decoration: none;
+}
+.login-gg-content::after{
+    content:"";
+    border-left: 1px solid #ffffff;
+    right:175px;
+    height: 43px;
+    position: absolute;
+    top: 32%;
+    transform: translateY(-50%);
+}
+.login-gg-content{
+    position: absolute;
+    left: 80px;
+    height: 43px;
+    color: #ffffff;
+    top: 68%;
+    transform: translateY(-50%);
+}
+#login{
+    position: absolute;
+}
+
+/* ========================================================================= */

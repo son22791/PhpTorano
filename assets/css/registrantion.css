@@ -1,0 +1,102 @@
+.register{
+    min-height: 350px;
+    width: 100%;
+    position: relative;
+}
+.form-box{
+    width: 600px;
+    max-height: 150%;   
+    position: relative;
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+.button-box{
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 6px 0 #0000001f;
+}
+.toggle-btn{
+    width: 49.5%;
+    padding: 5px 1px;
+    /* padding: 5px auto; */
+    cursor: pointer;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+button:focus { outline: none; }
+
+.toggle-btn{
+    left: 1px;
+    font-size: 18px;
+    color: #252A2B;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 2px solid #ffffff;
+}
+#btn{
+    z-index: 1;
+    top: 0;
+    left: 297px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-bottom: 2px solid #10a2f7;
+    transition: .5s ;
+}
+.toggle-btn:hover{
+    top: 0;
+    /* left: 2px; */
+    /* position: absolute; */
+    width: 49.5%;
+    height: auto;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-bottom: 2px solid #10a2f7;
+}
+.button-box:hover{
+
+}
+#btn_hover:hover{
+    top: 0;
+    left: 2px;
+    position: absolute;
+    width: 52%;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    border-bottom: 2px solid #10a2f7;
+    transition: .5s ;
+}
+
+.input-field{
+    width: 100%;
+    /* border-bottom: 1px solid #10a2f7 !important; */
+    border: 0 ;
+    box-shadow: 0 1px 0 0 #0000001f;
+    margin-bottom: 15px;
+    height: 40px;
+    outline:none;
+}
+.submit-btn{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0;
+    border-radius:3px;
+    height: 38px;
+    padding: 0 15px;
+    font-size: 18px;
+}
+.input-group{
+    padding: 20px;
+    display: block;
+    width: 598px;
+}
+#register-submit{
+    background-color:#fd6f1d;
+}
+.form-register{
+    position: absolute;
+    border: 1px solid #ccc;
+    height: 350px;
+}
